@@ -33,6 +33,31 @@ The dataset is `college.csv` and it contains the following variables:
 - `wage` State hourly wage in manufacturing in 1980.
 - `urban` Does the family live in an urban area?
 
+## Data Preparation
+
+I created a DAG (Directed Acyclic Graph) to visualize the relationship between the treatment and outcome and other covariates. This also helped identify any confounders, mediators, and instrumental variables. I identified the following:
+
+- `wage`: instrumental variable
+- `fcollege`: confounder
+- `urban`: confounder
+- `tuition`: mediator
+- `score`: mediator
+
+The helped identify the necessary steps to determine a causal effect between familial income and whether an individual attended college.
+
+
+
+## Methodology 
+
+
+
+## Evaluation
+
+
+
+
+
+
 
 
 
