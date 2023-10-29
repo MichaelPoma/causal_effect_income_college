@@ -11,7 +11,7 @@ Project was to examine whether family income affects an individual's likelihood 
 ## Code and Resources Used
 
 **R Version:** 4.2.2\
-**Packages:** MatchIt, tidyverse, ggdag, dagitty, dplyr, knitr, estimatr, magrittr, haven, broom, readxl, AER\
+**Packages:** MatchIt, tidyverse, ggdag, dagitty, dplyr, knitr, estimatr, magrittr, haven, broom, readxl, AER
 
 
 
